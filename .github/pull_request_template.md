@@ -1,22 +1,31 @@
-:wave: Please do not create a Pull Request without creating an issue first!
+****************************************************************************
+:wave: _Please do not create a Pull Request without creating an issue first!_
+****************************************************************************
 
 ## Subject
-Briefly summarize the PR - If not possible, then propose smaller PRs
+_Brief summary (N.B. if not possible, then propose smaller PRs)_
+
 
 ## Linked issues
-Use this to reference github issues, e.g. `Close #n`, `Fix #n`, or `Related #n`
+_Referenced github issues (E.g. `Close #n`, `Fix #n`, or `Related #n`)_
+
 
 ## Before
-Explain how it worked before the proposed changes
+_How it worked before the proposed changes_
+
 
 ## After
-Explain how it works with the proposed changes
+_How it works with the proposed changes_
+
 
 ## Tests
-Explain what was done to avoid any unexpected behaviors being introduced
+_Measures taken to avoid introducing any unexpected behaviors_
+
 
 ## TTR
-Please share the time duration spent on this PR and it's development
+_Time duration spent on this PR and it's development_
+
 
 ## Reviewers
-Tag any maintainers of the repo to review this PR
+_Maintainers of the repo tagged to review this PR_
+

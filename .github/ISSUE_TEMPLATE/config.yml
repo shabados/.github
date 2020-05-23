@@ -2,6 +2,10 @@
 blank_issues_enabled: false
 contact_links: 
   - 
-    about: "Please chat with us on Slack."
+    about: "Chat with the team and community on Slack"
     name: Chat
     url: "https://chat.shabados.com"
+  - 
+    about: ""
+    name: Support & Feedback
+    url: "https://github.com/ShabadOS/.github/blob/master/SUPPORT.md"

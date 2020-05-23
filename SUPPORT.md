@@ -1,8 +1,6 @@
 # Support & Feedback
 
-Shabad OS is an open, community-driven, and volunteer project. If you require support, please create an issue.
-
-This is preferred:
+Shabad OS is an open, community-driven, and volunteer project. If you require support, please create an issue:
 
 :speech_balloon: *Use a GitHub account to [create an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue).*
 

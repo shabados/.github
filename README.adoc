@@ -1,3 +1,82 @@
+:idprefix:
+:hide-uri-scheme:
+:numbered:
+:max-width: 900px
+:icons: font
+:toc: macro
+:toclevels: 4
+:logo: https://raw.githubusercontent.com/ShabadOS/desktop/dev/resources/icon.png
+:website: https://shabados.com
+:coc-img: https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant%20v2.0-ff69b4.svg
+:coc-url: https://github.com/ShabadOS/.github/blob/master/CODE_OF_CONDUCT.md
+:instagram-img: https://img.shields.io/badge/Instagram-%40shabad__os-C13584.svg?logo=instagram&logoColor=white
+:instagram-url: https://www.instagram.com/shabad_os/
+:twitter-img: https://img.shields.io/badge/Twitter-%40shabad__os-1DA1F2.svg?logo=twitter&logoColor=white
+:twitter-url: https://www.twitter.com/shabad_os/
+:chat-img: https://img.shields.io/badge/Chat-Public%20Slack%20Channels-1264a3.svg?logo=slack
+:chat-url: https://chat.shabados.com
+:wa-img: https://img.shields.io/badge/WhatsApp-%2B1%20516%20619%206059-128C7E.svg?logo=whatsapp&logoColor=white
+:wa-url: https://wa.me/15166196059
+ifdef::env-github,env-browser[:outfilesuffix: .asciidoc]
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :fire:
+:caution-caption: :warning:
+:warning-caption: :no_entry:
+endif::[]
+
+image::{logo}[128,128,link="{website}"]
+
+[discrete]
 # Default Repo Files 
 
-See docs for https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file[GitHub community health files]
+See GitHub's docs for https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file[community health files]
+
+image:{coc-img}[title=Code of Conduct, link="{coc-url}"]
+
+---
+toc::[id="toc"]
+---
+
+## Introduction
+
+Shabad OS is a GPL-licensed open source project with ongoing development, project management, and marketing made possible entirely by the support and dedication of unpaid volunteers.
+
+See {website}[our website].
+
+## Community
+
+Get updates on Shabad OS and chat with the project maintainers and community members.
+
+* image:{instagram-img}[title=Instagram, link="{instagram-url}"] Follow Shabad OS on Instagram. 
+* image:{twitter-img}[title=Twitter, link="{twitter-url}"] Follow Shabad OS on Twitter. 
+* image:{chat-img}[title=Chat, link="{chat-url}"] Join the official Slack channel. 
+* image:{wa-img}[title=WhatsApp, link="{wa-url}"] Direct message us on WhatsApp. Or chat with fellow Shabad OS community members in the WhatsApp group chat.
+
+## Contributing
+
+There are many ways in which people can participate in Shabad OS projects. For example:
+
+* Submit bugs and feature requests. Help us verify whether they are resolved.
+* Review documentation and make pull requests for anything from typos to new content.
+* Give feedback on the onboarding process to make it easier for others to join the project.
+
+If you are interested in fixing issues and contributing directly to any repos, please see that repo's specific CONTRIBUTING doc.
+
+And "Thank you!" to all the volunteers who've already contributed to Shabad OS!
+
+## Feedback
+
+* Ask a question via {chat-url}[Slack] or {wa-url}[WhatsApp]
+* Follow {instagram-url}[@shabad_os on Instagram] and {twitter-url}[@shabad_os on Twitter] and let us know what you think!
+
+## Code of Conduct
+
+Please note that this project is released under the Contributor Covenant. By participating in this project you agree to abide by its terms. Our intention is to signal a safe open-source community by welcoming all people to contribute, and pledging in return to value them as whole human beings and to foster an atmosphere of kindness, cooperation, and understanding.
+
+> We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+> We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+> link:https://www.contributor-covenant.org/version/2/0/code_of_conduct/[The Contributor Covenant]

@@ -1,28 +1,40 @@
-# Contributing to Shabad OS for Desktop
+# Contributing to Shabad OS
 
-Thank you for your interest to participate in Shabad OS projects! There are many ways for people to contribute, beyond writing code or programming, see [Feedback](#feedback) for non-developer contributors. This document is for developers or programmers that wish to write code and directly contribute to the source code of Shabad OS.
+Thank you for your interest in participating!
 
-## Feedback
+There are many ways to contribute, beyond writing code or programming, by: logging bugs, reporting issues, and creating suggestions.
 
-There are many ways for people to contribute, beyond writing code or programming:
+This document is for developers or programmers contributing to Shabad OS repos source code.
 
-* Ask a question via [Slack](https://chat.shabados.com)
-* Request a new feature or report unexpected bugs by filing an issue
-* Upvote popular feature requests using the thumbs-up/+1 reaction on the first post of an issue
-* Follow [@shabad_os on Instagram](https://www.instagram.com/shabad_os/) and [@shabad_os on Twitter](https://www.twitter.com/shabad_os/) and let us know what you think!
+**Table of Contents**
+
+- [Workflow](#workflow)
+  - [Coding Guidelines](#coding-guidelines)
+  - [Scope](#scope)
+- [Thank you](#thank-you)
 
 ## Workflow
 
-The general workflow of development is to choose an issue to work on, create a personal branch off `dev` branch, and submit a pull request. This _fork and pull model_ model is shared across all repos in the Shabad OS organization.
+The workflow of development (or Git Flow) is to choose/create an issue to work on, [create a feature branch](https://github.com/shabados/.github/wiki/How-to-Contribute#branches), and [submit a pull request](https://github.com/shabados/.github/wiki/How-to-Contribute#pull-requests).
 
-:fire: Please see the [shared docs for Workflow](https://github.com/ShabadOS/.github/wiki/How-to-Contribute#workflow) (Issue Tracking, Branching, and Pull Requests) in the wiki.
+**PROTIP**: Read more about our workflow (issue tracking, branching, and pull requests) in the [How To Contribute wiki article](https://github.com/shabados/.github/wiki/How-to-Contribute).
 
-## Coding Guidelines
+### Coding Guidelines
 
-Our coding guidelines are also (mostly) shared across all repos in the Shabad OS organization. Aside from scope definitions (which are repo specific), the rest should be referenced in the wiki article.
+Please see the [wiki](https://github.com/shabados/.github/wiki/How-to-Contribute#coding-guidelines) for Coding Guidelines ([Names](https://github.com/shabados/.github/wiki/How-to-Contribute#41-names), [Comments](https://github.com/shabados/.github/wiki/How-to-Contribute#42-comments), [Style](https://github.com/shabados/.github/wiki/How-to-Contribute#43-style), [Linting](https://github.com/shabados/.github/wiki/How-to-Contribute#44-linting), and [Commit Messages](https://github.com/shabados/.github/wiki/How-to-Contribute#45-commit-messages)).
 
-:fire: Please see the [shared docs for Coding Guidelines](https://github.com/ShabadOS/.github/wiki/How-to-Contribute#coding-guidelines) (Names, Comments, Style, Linting, and Commit Messages) in the wiki.
+### Scope
 
-## Thank you!
+To be used in [commit messages](https://github.com/shabados/.github/wiki/How-to-Contribute#45-commit-messages).
+
+Usage:
+
+```shell
+<type>(<scope>): <subject>
+```
+
+There are currently no scopes for this repo.
+
+## Thank you
 
 Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to participate in this project.

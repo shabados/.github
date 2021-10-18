@@ -1,20 +1,30 @@
 ---
-name: Feature request
+name: Suggestion
 about: Suggest a new feature or enhancement
 title: ''
-labels: 'Type: Feat'
+labels: '□ Type Story'
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+# User Persona, Goal, and Motivation
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+<!-- Please explain your story by filling in the blanks below -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+I am a ______, I wish to ______, so that I can ______.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+# Acceptance Criteria
+
+<!-- This section is for team use only, please do not fill anything below -->
+
+* GIVEN 
+* WHEN 
+* THEN 
+
+# Approach
+
+- [ ] 
+
+# Mockup
+
+

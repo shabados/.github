@@ -11,7 +11,7 @@ assignees: ''
 
 <!-- Please explain your story by filling in the blanks below -->
 
-I am a ______, I wish to ______, so that I can ______.
+I am a ______, I want to ______, so that I can ______.
 
 # Acceptance Criteria
 

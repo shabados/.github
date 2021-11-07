@@ -1,6 +1,6 @@
 ---
-name: Suggestion
-about: Suggest a new feature or enhancement
+name: User Suggestion
+about: Feature or requirement written from the user's perspective.
 title: ''
 labels: '□ Type Story'
 assignees: ''

@@ -1,5 +1,5 @@
 ---
-name: Epic
+name: Team Epic
 about: For team use of big goals or collection of issues.
 title: ''
 labels: 'ϟ Type Epic'

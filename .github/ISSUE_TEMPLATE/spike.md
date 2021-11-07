@@ -1,5 +1,5 @@
 ---
-name: Spike
+name: Team Spike
 about: For team use of knowledge exploration.
 title: ''
 labels: '⧬ Type Spike'

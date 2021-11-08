@@ -1,5 +1,5 @@
 ---
-name: User Suggestion
+name: Feature Suggestion
 about: Feature or requirement written from the user's perspective.
 title: ''
 labels: '□ Type Story'

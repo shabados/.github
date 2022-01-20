@@ -1,17 +1,11 @@
-### Summary of PR
-brief_summary_plz
+<!-- Please title as if this PR were a single commit to our main branch. -->
+<!-- https://docs.shabados.com/community/coding-guidelines#commit-messages -->
+<!-- Also don't forget to add any reviewer(s) and link the related issue! -->
 
-### Tests for unexpected behavior
-- none_whatsoever
+### Summary
 
-### Time spent on PR
-nine_thousand_years
 
-### Linked issues
-Fix #
+### Test
+- 
 
-<!-- Thank you for your PR! If you're still working, please mark this PR as a draft. -->
-<!-- If you're ready to merge, be sure to do the following: -->
-<!-- 1) Add reviewer(s) -->
-<!-- 2) Add assignee(s) -->
-<!-- 3) Confirm PR title conforms with git commit guidelines (as we will be squashing the PR when merging) -->
+### Duration

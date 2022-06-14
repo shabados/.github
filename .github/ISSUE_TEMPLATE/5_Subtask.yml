@@ -1,11 +1,14 @@
-name: ⧉ Sub-task
+name: 📝 Sub-task
 description: For team use only
 labels: ['⧉ Type Sub-task']
 body:
   - type: markdown
+    value: '## For team use only'
+
+  - type: markdown
     attributes:
       value: |
-        **For team use only.** @Team please use to break down stories, tasks, or bugs into individual pieces of work.
+        @Team please use to break down stories, tasks, or bugs into individual pieces of work.
 
   - type: textarea
     id: summary

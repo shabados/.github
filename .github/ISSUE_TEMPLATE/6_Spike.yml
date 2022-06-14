@@ -1,11 +1,14 @@
-name: ⧬ Spike
+name: 🧐 Spike
 description: For team use only
 labels: ['⧬ Type Spike']
 body:
   - type: markdown
+    value: '## For team use only'
+
+  - type: markdown
     attributes:
       value: |
-        **For team use only.** @Team please use for knowledge exploration.
+        @Team please use for knowledge exploration.
 
   - type: textarea
     id: investigation

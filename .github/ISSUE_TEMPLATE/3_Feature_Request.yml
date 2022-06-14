@@ -1,16 +1,15 @@
-name: □ Feature Suggestion
+name: 🚀 Feature Suggestion
 description: Propose a feature or requirement
 labels: ['□ Type Story']
 body:
   - type: markdown
     attributes:
       value: |
-        Please search for similar issues regarding your concerns before opening a new issue.
+        **Please search for similar issues regarding your concerns before opening a new issue.**
 
-  - type: markdown
-    attributes:
-      value: |
-        Please explain your story by filling in the blanks in the form of "I am a ______, I want to ______, so that I can ______."
+        Please explain your story by filling in the blanks in the following format:
+
+        "I am a ______, I want to ______, so that I can ______."
 
   - type: input
     id: persona

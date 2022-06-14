@@ -1,11 +1,14 @@
-name: ϟ Epic
+name: ⚡️ Epic
 description: For team use only
 labels: ['ϟ Type Epic']
 body:
   - type: markdown
+    value: '## For team use only'
+
+  - type: markdown
     attributes:
       value: |
-        **For team use only.** @Team please use for issue collection of a roadmap goal.
+        @Team please use for issue collection of a roadmap goal.
 
   - type: textarea
     id: goal

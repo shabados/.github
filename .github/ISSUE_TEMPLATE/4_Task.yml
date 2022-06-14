@@ -1,11 +1,14 @@
-name: ✓ Task
+name: ✅ Task
 description: For team use only
 labels: ['✓ Type Task']
 body:
   - type: markdown
+    value: '## For team use only'
+
+  - type: markdown
     attributes:
       value: |
-        **For team use only.** @Team please use for technical work.
+        @Team please use for technical work.
 
   - type: textarea
     id: summary

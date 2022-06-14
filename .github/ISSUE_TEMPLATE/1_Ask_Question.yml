@@ -1,13 +1,13 @@
-name: '? Ask Question'
+name: '💬 Ask Question'
 description: Make queries about the project
 labels: ['? Type Question']
 body:
   - type: markdown
     attributes:
       value: |
-        Please search for similar issues regarding your concerns before opening a new issue.
+        **Please search for similar issues regarding your concerns before opening a new issue.**
 
-  - type: textarea
+  - type: input
     id: question
     attributes:
       label: Question

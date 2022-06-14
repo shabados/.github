@@ -1,0 +1,55 @@
+name: □ Feature Suggestion
+description: Propose a feature or requirement
+labels: ['□ Type Story']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search for similar issues regarding your concerns before opening a new issue.
+
+  - type: markdown
+    attributes:
+      value: |
+        Please explain your story by filling in the blanks in the form of "I am a ______, I want to ______, so that I can ______."
+
+  - type: input
+    id: persona
+    attributes:
+      label: Persona
+      placeholder: Type of user (e.g. reader, presenter, scholar)
+    validations:
+      required: true
+
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      placeholder: Purpose of the feature request
+    validations:
+      required: true
+
+  - type: input
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: Reason for feature request
+    validations:
+      required: true
+
+  - type: textarea
+    id: ac
+    attributes:
+      label: Acceptance Criteria
+      description: 'This section for team use only'
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach
+      description: 'This section for team use only'
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup
+      description: 'This section for team use only'

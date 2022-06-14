@@ -1,0 +1,23 @@
+name: ⧉ Sub-task
+description: For team use only
+labels: ['⧉ Type Sub-task']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **For team use only.** @Team please use to break down stories, tasks, or bugs into individual pieces of work.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach
+      description: 'Please list actions and sub-tasks here'
+      value: |
+        -

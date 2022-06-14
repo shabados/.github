@@ -1,11 +1,15 @@
---- 
+---
 blank_issues_enabled: false
-contact_links: 
-  - 
-    about: "Chat with the team and community on Slack"
+contact_links:
+  - about: 'Join our community on Slack'
     name: Chat
-    url: "https://chat.shabados.com"
-  - 
-    about: "See different ways to get in touch with the team"
-    name: Support & Feedback
-    url: "https://github.com/ShabadOS/.github/blob/master/SUPPORT.md"
+    url: 'https://chat.shabados.com'
+  - about: 'Follow us on Instagram'
+    name: Instagram
+    url: 'https://www.instagram.com/shabad_os'
+  - about: 'Follow us on Twitter'
+    name: Twitter
+    url: 'https://www.twitter.com/shabad_os'
+  - about: 'Contact the Community Leaders'
+    name: Email
+    url: 'mailto:team@shabados.com'

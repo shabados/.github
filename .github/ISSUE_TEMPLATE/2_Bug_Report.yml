@@ -1,0 +1,22 @@
+name: ○ Bug Report
+description: Report unexpected behavior
+labels: ['○ Type Bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search for similar issues regarding your concerns before opening a new issue.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      placeholder: Tell us what's actually happening vs. what's intended/expected. Include steps to reproduce the issue. It may help to add screenshots!
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: 'Versions of platform, device, OS, browser, etc.'

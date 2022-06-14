@@ -1,0 +1,34 @@
+name: ϟ Epic
+description: For team use only
+labels: ['ϟ Type Epic']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **For team use only.** @Team please use for issue collection of a roadmap goal.
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      placeholder: Purpose of Epic
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: Reason for Epic
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Stories / Tasks
+      description: 'Please list related stories and tasks here'
+      value: |
+        -
+    validations:
+      required: true

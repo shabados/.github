@@ -1,0 +1,16 @@
+name: '? Ask Question'
+description: Make queries about the project
+labels: ['? Type Question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search for similar issues regarding your concerns before opening a new issue.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: Ask us a question about the project
+    validations:
+      required: true

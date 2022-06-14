@@ -3,7 +3,8 @@ description: For team use only
 labels: ['ϟ Type Epic']
 body:
   - type: markdown
-    value: '## For team use only'
+    attributes:
+      value: '## For team use only'
 
   - type: markdown
     attributes:

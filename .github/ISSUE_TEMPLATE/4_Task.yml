@@ -3,7 +3,8 @@ description: For team use only
 labels: ['✓ Type Task']
 body:
   - type: markdown
-    value: '## For team use only'
+    attributes:
+      value: '## For team use only'
 
   - type: markdown
     attributes:
@@ -22,5 +23,4 @@ body:
     attributes:
       label: Approach
       description: 'Please list actions and sub-tasks here'
-      value: |
-        -
+      value: '- '

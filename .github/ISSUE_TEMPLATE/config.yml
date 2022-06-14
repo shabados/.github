@@ -2,14 +2,14 @@
 blank_issues_enabled: false
 contact_links:
   - about: 'Join our community on Slack'
-    name: Chat
+    name: 👥 Chat
     url: 'https://chat.shabados.com'
   - about: 'Follow us on Instagram'
-    name: Instagram
+    name: 👥 Instagram
     url: 'https://www.instagram.com/shabad_os'
   - about: 'Follow us on Twitter'
-    name: Twitter
+    name: 👥 Twitter
     url: 'https://www.twitter.com/shabad_os'
   - about: 'Contact the Community Leaders'
-    name: Email
-    url: 'mailto:team@shabados.com'
+    name: 👥 Email
+    url: 'https://github.com/shabados'

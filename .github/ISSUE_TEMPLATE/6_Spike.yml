@@ -31,7 +31,6 @@ body:
     attributes:
       label: Outcome
       description: 'Please list criteria for completion'
-      value: |
-        -
+      value: '- '
     validations:
       required: true

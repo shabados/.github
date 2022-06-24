@@ -1,5 +1,5 @@
-name: '💬 Ask Question'
-description: Make queries about the project
+name: '💬 Question'
+description: Ask us about the project
 labels: ['? Type Question']
 body:
   - type: markdown
@@ -7,7 +7,7 @@ body:
       value: |
         **Please search for similar issues regarding your concerns before opening a new issue.**
 
-  - type: input
+  - type: textarea
     id: question
     attributes:
       label: Question

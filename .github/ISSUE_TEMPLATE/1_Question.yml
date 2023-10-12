@@ -12,5 +12,3 @@ body:
     attributes:
       label: Question
       placeholder: Ask us a question about the project
-    validations:
-      required: true

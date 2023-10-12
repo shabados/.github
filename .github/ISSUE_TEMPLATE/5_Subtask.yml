@@ -15,8 +15,6 @@ body:
     id: summary
     attributes:
       label: Summary
-    validations:
-      required: true
 
   - type: textarea
     id: approach

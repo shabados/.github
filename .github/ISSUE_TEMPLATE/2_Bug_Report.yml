@@ -12,8 +12,6 @@ body:
     attributes:
       label: Describe the bug
       placeholder: Tell us what's actually happening vs. what's intended/expected. Include steps to reproduce the issue. It may help to add screenshots!
-    validations:
-      required: true
 
   - type: input
     id: environment

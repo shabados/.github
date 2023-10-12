@@ -16,15 +16,11 @@ body:
     attributes:
       label: Investigation
       placeholder: Please outline requirements and ideas here
-    validations:
-      required: true
 
   - type: input
     id: timebox
     attributes:
       label: Timebox
-    validations:
-      required: true
 
   - type: textarea
     id: tasks
@@ -32,5 +28,3 @@ body:
       label: Outcome
       description: 'Please list criteria for completion'
       value: '- '
-    validations:
-      required: true

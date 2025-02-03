@@ -1,6 +1,7 @@
 name: 🚀 Feature Suggestion
 description: Propose a feature or requirement
 labels: ['□ Type Story']
+type: Feature
 body:
   - type: markdown
     attributes:
@@ -16,24 +17,18 @@ body:
     attributes:
       label: Persona
       placeholder: Type of user (e.g. reader, presenter, scholar)
-    validations:
-      required: true
 
   - type: input
     id: goal
     attributes:
       label: Goal
       placeholder: Purpose of the feature request
-    validations:
-      required: true
 
   - type: input
     id: motivation
     attributes:
       label: Motivation
       placeholder: Reason for feature request
-    validations:
-      required: true
 
   - type: textarea
     id: ac

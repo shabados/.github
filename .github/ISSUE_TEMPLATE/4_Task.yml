@@ -1,24 +1,27 @@
 name: ✅ Task
-description: For team use only
+description: For team use only. Technical task.
 labels: ['✓ Type Task']
 body:
   - type: markdown
     attributes:
-      value: '## For team use only'
-
-  - type: markdown
-    attributes:
       value: |
-        @Team please use for technical work.
+        > [!IMPORTANT]
+        > For team use only
+        > Technical task
 
   - type: textarea
     id: summary
     attributes:
       label: Summary
+      description: Brief summary of task + justification
+      placeholder: We'd like to upgrade from Node 20 to 22 since Node 20 is reaching end-of-life in 2 months.
 
   - type: textarea
     id: approach
     attributes:
       label: Approach
-      description: 'Please list actions and sub-tasks here'
-      value: '- '
+      description: Optional notes about the approach
+      placeholder: |
+        - Bump version in `.nvmrc`
+        - Re-install depedencies
+        - Re-run repo and fix any issues

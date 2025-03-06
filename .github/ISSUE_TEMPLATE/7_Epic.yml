@@ -4,34 +4,32 @@ labels: ['ϟ Type Epic']
 body:
   - type: markdown
     attributes:
-      value: '## For team use only'
-
-  - type: markdown
-    attributes:
       value: |
-        @Team please use for issue collection of a roadmap goal.
-
-  - type: textarea
-    id: goal
-    attributes:
-      label: Goal
-      placeholder: Purpose of Epic
-    validations:
-      required: true
+        > [!IMPORTANT]
+        > For team use only
+        > For defining a high-level initiative / goal on the roadmap
 
   - type: textarea
     id: motivation
     attributes:
       label: Motivation
-      placeholder: Reason for Epic
+      description: Reason for Epic
+      placeholder: |
+        On mobile, we'd like to decouple deployment from feature release for a number of reasons:
+
+        - Control feature release rollout
+        - We'd like to personalise the app for users with audience-targeted features
+        - Personalised app based on time/events
+        - A/B experiments
     validations:
       required: true
 
   - type: textarea
-    id: tasks
+    id: goal
     attributes:
-      label: Stories / Tasks
-      description: 'Please list related stories and tasks here'
-      value: '- '
+      label: Goal
+      description: High-level goals of Epic
+      placeholder: We'd like to integrate a feature flagging service that will provide us with a UI that we can toggle, audience segmentation, A/B tests, and any other goodies.
     validations:
       required: true
+

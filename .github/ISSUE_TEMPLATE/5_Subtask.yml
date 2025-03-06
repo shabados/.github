@@ -4,12 +4,10 @@ labels: ['⧉ Type Sub-task']
 body:
   - type: markdown
     attributes:
-      value: '## For team use only'
-
-  - type: markdown
-    attributes:
       value: |
-        @Team please use to break down stories, tasks, or bugs into individual pieces of work.
+        > [!IMPORTANT]
+        > For team use only
+        > For breaking down stories, tasks, or bugs into individual pieces of work
 
   - type: textarea
     id: summary

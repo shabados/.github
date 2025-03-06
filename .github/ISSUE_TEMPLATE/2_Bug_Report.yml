@@ -5,16 +5,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Please search for similar issues regarding your concerns before opening a new issue.**
+        > [!TIP]
+        > Please search for similar issues before opening a new issue
 
   - type: textarea
     id: what-happened
     attributes:
       label: Describe the bug
-      placeholder: Tell us what's actually happening vs. what's intended/expected. Include steps to reproduce the issue. It may help to add screenshots!
+      description: Tell us what's actually happening vs. what's intended/expected. Include steps to reproduce the issue. It may help to add screenshots!
+      placeholder: |
+        The app keeps crashing when I navigate through my bookmarks.
+
+        1) Open app
+        2) Click on bookmarks icon
+        3) Navigate to Nitnem
+        4) Navigate back
 
   - type: input
     id: environment
     attributes:
       label: Environment
-      placeholder: 'Versions of platform, device, OS, browser, etc.'
+      description: Versions of platform, device, OS, browser, etc.
+      placeholder: v1.2.4, iPhone 13 Pro Max, iOS 15.2

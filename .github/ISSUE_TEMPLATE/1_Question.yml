@@ -5,7 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Please search for similar issues regarding your concerns before opening a new issue.**
+        > [!TIP]
+        > Please search for similar issues before opening a new issue
 
   - type: textarea
     id: question

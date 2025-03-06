@@ -4,27 +4,55 @@ labels: ['⧬ Type Spike']
 body:
   - type: markdown
     attributes:
-      value: '## For team use only'
-
-  - type: markdown
-    attributes:
       value: |
-        @Team please use for knowledge exploration.
+        > [!IMPORTANT]
+        > For team use only
+        > For investigations + explorations
 
   - type: textarea
     id: investigation
     attributes:
       label: Investigation
-      placeholder: Please outline requirements and ideas here
+      description: Please outline requirements and ideas here
+      placeholder: |
+        We wish to look into a customer feedback provider.
+        This is crucial for giving users a voice / chance to be impactful. 
+        This can also serve as a way to provide proofreading feedback for database. 
+        
+        We are looking for something that has:
+        - An OSS friendly plan (free)
+        - Safe way to create GH tickets/issues from feedback
+        - Possible way to "categorize" feedback to relevant repo
+        - Attach system info (os, app version, etc.)
+        - Option to attach screenshot
 
-  - type: input
-    id: timebox
+  - type: textarea
+    id: approach
     attributes:
-      label: Timebox
+      label: Approach
+      description: Optional notes about the approach
+      placeholder: |
+        - Enumerate potential providers
+        - Fill out sheet with notes
 
   - type: textarea
     id: tasks
     attributes:
       label: Outcome
-      description: 'Please list criteria for completion'
-      value: '- '
+      description: 'Please list outputs'
+      placeholder: |
+        - Recommendation for a provider
+        - Discussion with the core team
+
+  - type: dropdown
+    id: timebox
+    attributes:
+      label: Timebox
+      description: Upper limit to the duration of the investigation
+      options:
+        - 20 mins
+        - 2 hours
+        - 0.5 days
+        - 1 day
+        - 2 days
+        - 5 days
